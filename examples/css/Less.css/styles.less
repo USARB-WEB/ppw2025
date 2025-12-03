@@ -1,0 +1,32 @@
+::root {
+  --bg: #ffffff;
+  --text: #000000;
+  --primary: #0077ff;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg: #cd1111;
+  --text: #ffffff;
+  --primary: #4dabf7;
+}
+
+
+/* **************** */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+
+button {
+  background-color: var(--primary);
+  color: var(--text);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
