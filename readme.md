@@ -25,3 +25,6 @@ Email: chilatsergiu@gmail.com
 
 ## Tools for design
 - https://www.figma.com/
+
+## Libraries
+- https://threejs.org/docs/
