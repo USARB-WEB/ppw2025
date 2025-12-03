@@ -1,0 +1,44 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid green;
+    background-color: red;
+    animation: moveBox 2s -1s infinite alternate;
+}
+
+@keyframes moveBox {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+.rounded-square {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 10%;
+    animation: rotateSquare 3s infinite alternate;
+}
+
+@keyframes rotateSquare {
+    0% {
+        transform: rotate(0deg);
+        left: 0;
+        scale: 5;
+    }
+    50% {
+        transform: rotate(180deg);
+        left: 700px;
+    }
+    100% {
+        transform: rotate(360deg);
+        left: 800px;
+        width: 10px;
+        scale: 10;
+        background-color: red;
+    }
+}
